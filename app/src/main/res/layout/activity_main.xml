@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:text="Gestion \n de Fotos"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/Tomarfoto"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="70dp"
+        android:text="Tomar foto"
+        android:padding="5dp"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:id="@+id/verfoto"
+        android:layout_width="410dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="550dp"
+        android:text="Enviar a traves de:"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/Gmail"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="600dp"
+        android:text="Correo"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/mensaje"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="250dp"
+        android:text="Whatsapp"
+        android:textSize="18dp"
+        />
+</RelativeLayout>
+
